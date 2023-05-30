@@ -1,0 +1,49 @@
+Starter-Tests
+Minimal-to-many
+
+Tastatur
+Input 1 Char String
+Output String
+
+Game
+
+GameBuilder
+-- string $levelFile
+--> Map als Output
+
+Map
+-- Fields
+-- Player
+
+Field
+-- Location
+
+--> Bug extends Field
+--> CoffeeMug extends Field
+--> Life extends Field
+--> Wall extends Field
+--> StairsUp extends Field
+--> StairsDown extends Field
+--> Start extends Field
+--> Goal extends Field
+
+Ĺocation
+-- int $x
+-- int $y
+
+Player
+-- Location
+-- int $health
+-- int $bugResistance
+
+xxxxxxxxxxxxxxxx
+x      c       x
+x           +  x
+x    b         x
+x              x
+xxxxxxxxxxxxxxxx
+
+
+******
+Wall
+- Location (x,y)
